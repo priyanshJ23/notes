@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Spartan&display=swap');
+.gradient-custom-2 {
+   
+    background: #fccb90;
+    background: -webkit-linear-gradient(to right, #676a6b, #36aad8, #dd3675, #0a4c97);
+    background: linear-gradient(to right, #99cdf8, hsl(199, 68%, 53%), #19888b, #0781a0);
+  }
+  
+  @media (min-width: 768px) {
+    .gradient-form {
+      height: 100vh !important;
+    }
+  }
+  @media (min-width: 769px) {
+    .gradient-custom-2 {
+      border-top-right-radius: .3rem;
+      border-bottom-right-radius: .3rem;
+    }
+  }
+  body
+  {
+    font-family: 'Spartan', sans-serif;
+  }
+
+  
